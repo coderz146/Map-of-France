@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>France Companies by Region</title>
+    <style> There are two maps coming in output make it only onemap with clicakble features mentioned in old prompt
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map-container {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        #map-image {
+            width: 100%;
+            height: auto;
+        }
+
+        #company-info {
+            padding: 20px;
+            background-color: #f4f4f4;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            border-top: 2px solid #ccc;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map-container">
+
+    <!-- Define clickable areas for each region -->
+    <img src="https://i.pinimg.com/736x/1f/78/02/1f780221eacec98e90d5dc2d0f476ce0.jpg" usemap="#france-map">
+
+<map name="france-map">
+    <area target="_blank" alt="CapGemini" title="CapGemini" href="https://www.capgemini.com/" coords="409,349,39" shape="circle">
+</map>
+</body>
+</html>
